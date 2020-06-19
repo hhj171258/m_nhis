@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detectoin" content="telephone=no, email=no, address=no">
+<link rel="stylesheet" href="/m_nhis/css/reset.css?ver=1.0">
+<link rel="stylesheet" href="/m_nhis/css/main.css?ver=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.1.0/css/swiper.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.1.0/js/swiper.min.js"></script>
+<title>건강보험공단 모바일</title>
+</head>
+<body>
+<div id="wrap">
+	<header id="header">
+		<div class="mypage">
+			<ul class="mypage-inner">
+				<li><a href="#"><span>마이페이지</span></a></li>
+				<li><a href="#"><span>회원정보</span></a></li>
+				<li><a href="#"><span>즐겨찾기</span></a></li>
+				<li><a href="#"><span>공인인증서</span></a></li>
+			</ul>
+			<div class="btn-mypage">
+				<span class="btn-mypage-inner">마이페이지</span>
+			</div>
+		</div>
+		<div class="utill">
+			<span class="btn-menu"></span>
+			<span class="btn-search"></span>
+			<form>
+				<input type="text">
+				<button type="submit">검색</button>
+			</form>
+			<h1><a href="/m_nhis"></a></h1>
+		</div>
+		<div class="menu">
+			<div class="menu_inner">
+				<span class="close"></span>
+				<h1><a href="/m_nhis"></a></h1>
+				<ul class="depth1">
+					<li>
+						<span class="on">민원서비스</span>
+						<ul	class="depth2">
+							<li>
+								<a href="#none">증명서 팩스 발송</a>
+								<ul class="depth3">
+									<li><a href="#">자격 확인서(병·의원 등)</a></li>
+									<li><a href="#">차상위 본인 부담 경감 증명서</a></li>
+									<li><a href="#">자격득실 확인서(은행 등)</a></li>
+									<li><a href="#">증명서 진위 확인</a></li>
+									<li><a href="#">보험료 납부 확인서</a></li>
+									<li><a href="#">팩스 발급 처리결과</a></li>
+									<li><a href="#">보험료 납부 확인서</a></li>
+									<li><a href="#">공단 수신 팩스 조회</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">보험료</a>
+								<ul class="depth3">
+									<li><a href="#">보험료 납부(지역)</a></li>
+									<li><a href="#">보험료 대납(지역)</a></li>
+									<li><a href="#">가상계좌 신청(지역)</a></li>
+									<li><a href="#">가상계좌 대납신청(지역)</a></li>
+									<li><a href="#">징수포털납부현황조회(지역)</a></li>
+									<li><a href="#">부과내역(지역)</a></li>
+									<li><a href="#">납부현황(지역)</a></li>
+									<li><a href="#">이메일고지 신청(지역)</a></li>
+									<li><a href="#">모바일고지 신청(지역)</a></li>
+									<li><a href="#">고지서송달지 변경(지역)</a></li>
+									<li><a href="#">고지서 재발급(지역)</a></li>
+									<li><a href="#">자동이체신청·해지(지역)</a></li>
+									<li><a href="#">개인별 보험료 조회(직장)</a></li>
+									<li><a href="#">연말정산내역(직장)</a></li>	
+								</ul>
+							</li>
+							<li>
+								<a href="#none">자격사항</a>
+								<ul class="depth3">
+									<li><a href="#">자격조회</a></li>	
+									<li><a href="#">건강보험증 발급</a></li>	
+									<li><a href="#">급여정지 조회</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">보험급여</a>
+								<ul class="depth3">
+									<li><a href="#">임신출산 진료비지원</a></li>	
+									<li><a href="#">보조기기 대여</a></li>	
+									<li><a href="#">치석제거 진료정보조회</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">미지급 환급금</a>
+								<ul class="depth3">
+									<li><a href="#">미지급환급금</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">진료내용</a>
+								<ul class="depth3">
+									<li><a href="#">진료받은 내용</a></li>	
+									<li><a href="#">신고처리 결과</a></li>	
+									<li><a href="#">사업장 의료비 제공동의</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">건강검진</a>
+								<ul class="depth3">
+									<li><a href="#">건강검진 대상자</a></li>
+									<li><a href="#">건강검진 결과</a></li>
+									<li><a href="#">건강검진표 수령 방법 선택</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">국민참여</a>
+								<ul class="depth3">
+									<li><a href="#">국민제안</a></li>
+									<li><a href="#">국민토론방</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">민원상담</a>
+								<ul class="depth3">
+									<li><a href="#">민원상담</a></li>
+									<li><a href="#">직원친절</a></li>
+									<li><a href="#">직원불친절</a></li>
+									<li><a href="#">모바일개선의견</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">신고센터</a>
+								<ul class="depth3">
+									<li><a href="#">예산낭비 신고센터</a></li>
+									<li><a href="#">부당청구 요양기관 신고</a></li>
+									<li><a href="#">1회용 주사기등 재사용 신고</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span>건강보험정보</span>
+						<ul class="depth2">
+							<li>
+								<a href="#">공단소개</a>
+								<ul class="depth3">
+									<li><a href="#">공단안내</a></li>
+									<li><a href="#">조직도</a></li>
+									<li><a href="#">공단지사 찾기</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">제도안내</a>
+								<ul class="depth3">
+									<li><a href="#">건강보험용어사전</a></li>
+									<li><a href="#">요양급여적용기준</a></li>
+									<li><a href="#">법령자료실</a></li>
+									<li><a href="#">건강보험민원해결사</a></li>
+									<li><a href="#">FAQ</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">장기요양</a>
+								<ul class="depth3">
+									<li><a href="#">노인장기요양보험소개</a></li>
+									<li><a href="#">장기요양급여비용모의계산</a></li>
+									<li><a href="#">장기요양기관찾기</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">건보소식</a>
+								<ul class="depth3">
+									<li><a href="#">새소식</a></li>
+									<li><a href="#">행사안내</a></li>
+									<li><a href="#">보도자료</a></li>
+									<li><a href="#">공고·입찰</a></li>
+									<li><a href="#">채용</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">웹진</a>
+								<ul class="depth3">
+									<li><a href="#">건강보험 웹진</a></li>
+									<li><a href="#">장기요양 웹진</a></li>
+									<li><a href="#">건강in 매거진</a></li>
+									<li><a href="#">소삭지 신청·해지</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">건강관리</a>
+								<ul class="depth3">
+									<li><a href="#">급연정보</a></li>
+									<li><a href="#">전문가칼럼</a></li>
+									<li><a href="#">노인건강</a></li>
+									<li><a href="#">건강뉴스</a></li>
+									<li><a href="#">건강검진</a></li>
+									<li><a href="#">장애인보조기기등록업소</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">의료기관</a>
+								<ul class="depth3">
+									<li><a href="#">병의원 찾기</a></li>
+									<li><a href="#">금연치료 기관 찾기</a></li>
+									<li><a href="#">약국찾기</a></li>
+									<li><a href="#">건강검진 기관 찾기</a></li>
+									<li><a href="#">간호간병통합서비스 병의원찾기</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">임신출산</a>
+								<ul class="depth3">
+									<li><a href="#">지원제도</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span>마이페이지</span>
+						<ul class="depth2">
+							<li><a href="#">마이페이지</a></li>
+							<li><a href="#">회원정보</a></li>
+							<li><a href="#">즐겨찾기</a></li>
+							<li><a href="#">공인인증서</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="lnb">
+			<ul class="depth1">
+				<li>
+					<a href="#">민원서비스</a>
+					<div class="depth2">
+						<ul	class="depth2-1">
+							<li><a href="#"><span>증명서<br>팩스 발송</span></a></li>
+							<li><a href="#"><span>보험료</span></a></li>
+							<li><a href="#"><span>자격사항</span></a></li>
+							<li><a href="#"><span>보험급여</span></a></li>
+						</ul>
+						<div class="depth3">
+							<ul class="depth3-1">
+								<li><a href="#">자격 확인서(병·의원 등)</a></li>
+								<li><a href="#">차상위 본인 부담 경감 증명서</a></li>
+								<li><a href="#">자격득실 확인서(은행 등)</a></li>
+								<li><a href="#">증명서 진위 확인</a></li>
+								<li><a href="#">보험료 납부 확인서</a></li>
+								<li><a href="#">팩스 발급 처리결과</a></li>
+								<li><a href="#">보험료 납부 확인서</a></li>
+								<li><a href="#">공단 수신 팩스 조회</a></li>
+							</ul>
+							<ul class="depth3-2">
+								<li><a href="#">보험료 납부(지역)</a></li>
+								<li><a href="#">보험료 대납(지역)</a></li>
+								<li><a href="#">가상계좌 신청(지역)</a></li>
+								<li><a href="#">가상계좌 대납신청(지역)</a></li>
+								<li><a href="#">징수포털납부현황조회(지역)</a></li>
+								<li><a href="#">부과내역(지역)</a></li>
+								<li><a href="#">납부현황(지역)</a></li>
+								<li><a href="#">이메일고지 신청(지역)</a></li>
+								<li><a href="#">모바일고지 신청(지역)</a></li>
+								<li><a href="#">고지서송달지 변경(지역)</a></li>
+								<li><a href="#">고지서 재발급(지역)</a></li>
+								<li><a href="#">자동이체신청·해지(지역)</a></li>
+								<li><a href="#">개인별 보험료 조회(직장)</a></li>
+								<li><a href="#">연말정산내역(직장)</a></li>	
+							</ul>
+							<ul class="depth3-3">
+								<li><a href="#">자격조회</a></li>	
+								<li><a href="#">건강보험증 발급</a></li>	
+								<li><a href="#">급여정지 조회</a></li>
+							</ul>
+							<ul class="depth3-4">
+								<li><a href="#">임신출산 진료비지원</a></li>	
+								<li><a href="#">보조기기 대여</a></li>	
+								<li><a href="#">치석제거 진료정보조회</a></li>
+							</ul>
+						</div>
+						<ul class="depth2-2">
+							<li><a href="#"><span>미지급<br>환급금</span></a></li>
+							<li><a href="#"><span>진료내용</span></a></li>
+							<li><a href="#"><span>건강검진</span></a></li>
+							<li><a href="#"><span>국민참여</span></a></li>
+						</ul>
+						<div class="depth3">
+							<ul class="depth3-5">
+								<li><a href="#">미지급환급금</a></li>
+							</ul>
+							<ul class="depth3-6">
+								<li><a href="#">진료받은 내용</a></li>	
+								<li><a href="#">신고처리 결과</a></li>	
+								<li><a href="#">사업장 의료비 제공동의</a></li>
+							</ul>
+							<ul class="depth3-7">
+								<li><a href="#">건강검진 대상자</a></li>
+								<li><a href="#">건강검진 결과</a></li>
+								<li><a href="#">건강검진표 수령 방법 선택</a></li>
+							</ul>
+							<ul class="depth3-8">
+								<li><a href="#">국민제안</a></li>
+								<li><a href="#">국민토론방</a></li>
+							</ul>
+						</div>
+						<ul class="depth2-3">
+							<li><a href="#"><span>민원상담</span></a></li>
+							<li><a href="#"><span>신고센터</span></a></li>
+						</ul>
+						<div class="depth3">
+							<ul class="depth3-9">
+								<li><a href="#">민원상담</a></li>
+								<li><a href="#">직원친절</a></li>
+								<li><a href="#">직원불친절</a></li>
+								<li><a href="#">모바일개선의견</a></li>
+							</ul>
+							<ul class="depth3-10">
+								<li><a href="#">예산낭비 신고센터</a></li>
+								<li><a href="#">부당청구 요양기관 신고</a></li>
+								<li><a href="#">1회용 주사기등 재사용 신고</a></li>
+							</ul>
+						</div>
+					</div>
+					</li>
+				<li>
+					<a href="#">건강보험정보</a>
+					<div class="depth2">
+						<ul class="depth2-1">
+							<li><a href="#"><span>공단소개</span></a></li>
+							<li><a href="#"><span>제도안내</span></a></li>
+							<li><a href="#"><span>장기요양</span></a></li>
+							<li><a href="#"><span>건보소식</span></a></li>
+						</ul>
+						<div class="depth3">
+							<ul class="depth3-1">
+								<li><a href="#">공단안내</a></li>
+								<li><a href="#">조직도</a></li>
+								<li><a href="#">공단지사 찾기</a></li>
+							</ul>
+							<ul class="depth3-2">
+								<li><a href="#">건강보험용어사전</a></li>
+								<li><a href="#">요양급여적용기준</a></li>
+								<li><a href="#">법령자료실</a></li>
+								<li><a href="#">건강보험민원해결사</a></li>
+								<li><a href="#">FAQ</a></li>
+							</ul>
+							<ul class="depth3-3">
+								<li><a href="#">노인장기요양보험소개</a></li>
+								<li><a href="#">장기요양급여비용모의계산</a></li>
+								<li><a href="#">장기요양기관찾기</a></li>
+							</ul>
+							<ul class="depth3-4">
+								<li><a href="#">새소식</a></li>
+								<li><a href="#">행사안내</a></li>
+								<li><a href="#">보도자료</a></li>
+								<li><a href="#">공고·입찰</a></li>
+								<li><a href="#">채용</a></li>
+							</ul>
+						</div>
+						<ul class="depth2-2">	
+							<li><a href="#"><span>웹진</span></a></li>
+							<li><a href="#"><span>건강관리</span></a></li>
+							<li><a href="#"><span>의료기관</span></a></li>
+							<li><a href="#"><span>임신출산</span></a></li>
+						</ul>
+						<div class="depth3">
+							<ul class="depth3-5">
+								<li><a href="#">공단안내</a></li>
+								<li><a href="#">조직도</a></li>
+								<li><a href="#">공단지사 찾기</a></li>
+							</ul>
+							<ul class="depth3-6">
+								<li><a href="#">건강보험 웹진</a></li>
+								<li><a href="#">장기요양 웹진</a></li>
+								<li><a href="#">건강in 매거진</a></li>
+								<li><a href="#">소삭지 신청·해지</a></li>
+							</ul>
+							<ul class="depth3-7">
+								<li><a href="#">급연정보</a></li>
+								<li><a href="#">전문가칼럼</a></li>
+								<li><a href="#">노인건강</a></li>
+								<li><a href="#">건강뉴스</a></li>
+								<li><a href="#">건강검진</a></li>
+								<li><a href="#">장애인보조기기등록업소</a></li>
+							</ul>
+							<ul class="depth3-8">							
+								<li><a href="#">지원제도</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div id="container">
+		<!-- mainvisual -->
+		<div class="mainvisual">
+			<div class="mainvisual-inner">
+				<div class="autoplay">
+					<div><a href="#"><img src="/m_nhis/images/main/img_mainvisual1.jpg" alt=""></a></div>
+					<div><a href="#"><img src="/m_nhis/images/main/img_mainvisual2.jpg" alt=""></a></div>
+					<div><a href="#"><img src="/m_nhis/images/main/img_mainvisual3.jpg" alt=""></a></div>
+				</div>
+				<span class="prev"></span>
+				<span class="next"></span>
+				<div class="control">
+					<span class="index"></span>
+					<span class="stop"></span>
+					<span class="play off"></span>
+					<span class="more">모두보기</span>
+				</div> 
+			</div>
+		</div>
+		<!--// mainvisual -->
+		<!-- chat -->
+		<div class="chat">
+			<a href="#">수어삼담</a>
+			<a href="#">외국어상담</a>
+			<a href="#">카톡상담</a>
+		</div>
+		<!--// chat -->
+		<!-- service -->
+		<section class="service">
+			<h2>자주찾는 민원서비스</h2>
+			<div class="service-inner swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><a href="#"><img src="/m_nhis/images/main/img_service1.png" alt="">보험료 납부확인서</a></div>
+					<div class="swiper-slide"><a href="#"><img src="/m_nhis/images/main/img_service2.png" alt="">국민 건강 알림서비스</a></div>
+					<div class="swiper-slide"><a href="#"><img src="/m_nhis/images/main/img_service3.png" alt="">건강보험 자격득실 확인서</a></div>
+					<div class="swiper-slide"><a href="#"><img src="/m_nhis/images/main/img_service4.png" alt="">건강보험 미지급 환급금 조회</a></div>
+					<div class="swiper-slide"><a href="#"><img src="/m_nhis/images/main/img_service5.png" alt="">건강검진 대상자 조회</a></div>
+				</div>
+			</div>
+		</section>
+		<!--// service -->
+		<!-- notice -->
+		<section class="notice">
+			<a href="#" class="btn-notice-more"></a>
+			<ul class="tabmenu">
+				<li class="on">새소식</li>
+				<li>보도자료</li>
+				<li>채용공고</li>
+				<li>입찰공고</li>
+			</ul>
+			<div class="tabcontent">
+				<div class="notice-big">
+					<a href="#" class="notice-big-left">
+						<small>2020.02</small><strong>25</strong>
+					</a>
+					<a href="#" class="notice-big-right">
+						<h3>「코로나19」 발생에 따른 요양급여비용 조기지급(가지급) 실시 안내</h3>
+						<p>「코로나19」 감염증 확산으로 인하여 의료기관의 경영의 어려움을 덜어주기위하여 아래와 같이 조기지급(가지급)을 실시하오니 업무에 참고하시기 바랍니다.</p>
+					</a>
+				</div>
+				<ul class="notice-small">
+					<li><a href="#">&lt;코로나바이러스감염증-19 외래 진단검사비 지원 및 청구방법 안내&gt;</a></li>
+					<li>2020-02-20</li>
+					<li><a href="#">&lt;코로나바이러스감염증-19 격리입원치료비 지원 및 청구방법 안내&gt;</a></li>
+					<li>2020-02-20</li>
+					<li><a href="#">개인정보 목적 외 이용 및 제공 내역('20.1. 31.~'20.2.15)</a></li>
+					<li>2020-02-18</li>
+				</ul>
+			</div>
+			<div class="tabcontent blank">
+				<p>최근 게시글이 없습니다.</p>
+			</div>
+			<div  class="tabcontent">
+				<div class="notice-big">
+					<a href="#" class="notice-big-left">
+						<small>2020.02</small><strong>24</strong>
+					</a>
+					<a href="#" class="notice-big-right">
+						<h3>2020년도 상반기 개방형직위 및 전문인력 채용</h3>
+						<p>국민의 평생건강을 책임지는 국민건강보험공단에서 유능한 전문인력을 아래와 같이 모집합니다.</p>
+					</a>
+				</div>
+				<ul class="notice-small">
+					<li><a href="#">2020년도 상반기 기간제 근로자 채용 지원서 접수사이트 안내</a></li>
+					<li>2020-02-07</li>
+					<li><a href="#">2020년도 상반기 기간제 근로자 채용</a></li>
+					<li>2020-01-31</li>
+					<li><a href="#">2019년도 4분기 신규채용직원의 친인척 임직원 현황</a></li>
+					<li>2020-01-22</li>
+				</ul>
+			</div>
+			<div  class="tabcontent">
+				<div class="notice-big">
+					<a href="#" class="notice-big-left">
+						<small>2020.02</small><strong>25</strong>
+					</a>
+					<a href="#" class="notice-big-right">
+						<h3>[입찰공고] 건강백세운동교실 성과평가 및 개선모형 개발 연구</h3>
+						<p>'건강백세운동교실 성과평가 및 개선모형 개발 연구' 입찰공고입니다.(~4.6.) 사업에 관한 세부사항은 첨부파일 '공고서' 및 '제안요청서'를 참고하시기 바랍니다.</p>
+					</a>
+				</div>
+				<ul class="notice-small">
+					<li><a href="#">[사전규격공개] 2020년 유관기관용 창립기념품 구매</a></li>
+					<li>2020-02-24</li>
+					<li><a href="#">[사전규격공개] 2020년 직원용 창립기념품 구매</a></li>
+					<li>2020-02-24</li>
+					<li><a href="#">[사전규격공개] 2020년 독서통신(우편원격교육) 위탁운영</a></li>
+					<li>2020-02-24</li>
+				</ul>
+			</div>
+			<a href="#" class="btn-notice-more-text"><span>더보기</span></a>
+		</section>
+		<!--// notice -->
+		<!-- complain-tablet -->
+			<div class="complain-tablet">
+				<ul class="tabmenu">
+					<li class="on">신고센터</li>
+					<li>경영방침위반</li>
+					<li>외부기관신고</li>
+				</ul>
+				<ol class="tabcontent">
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain1_1.png" alt="">부당청구요양기관 신고포상</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain1_2.png" alt="">1회용 주사기 재사용 신고</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain1_3.png" alt="">의료기관·약국 불법개설기관 신고</a></li>
+				</ol>
+				<ol class="tabcontent">
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain2_1.png" alt="">청탁금지위반 신고</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain2_2.png" alt="">국민건강보험공단 예산 낭비 신고</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain2_3.png" alt="">부패행위자처벌 현황 공개</a></li>
+				</ol>
+				<ol class="tabcontent">
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain3_1.png" alt="">레드휘슬 헬프라인</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain3_2.png" alt="">국민권익위원회</a></li>
+				</ol>
+			</div>
+		<!--//complain-tablet -->
+		<!-- sns -->
+		<section class="sns">
+			<h2>소통하는 국민건강보험</h2>
+			<div class="sns-inner">
+				<a href="https://www.youtube.com/channel/UC7tsTpx4Ra-oJrjIb9ItBUA" target="_blank"><img src="/m_nhis/images/main/icon_sns1.png" alt="youtube"></a>
+				<a href="https://www.facebook.com/nhis.korea" target="_blank"><img src="/m_nhis/images/main/icon_sns2.png" alt="facebook"></a>
+				<a href="https://twitter.com/nhis_kr" target="_blank"><img src="/m_nhis/images/main/icon_sns3.png" alt="twitter"></a>
+				<a href="https://www.instagram.com/nhis_korea" target="_blank"><img src="/m_nhis/images/main/icon_sns4.png" alt="instargram"></a>
+				<a href="https://blog.naver.com/nhicblog" target="_blank"><img src="/m_nhis/images/main/icon_sns5.png" alt="naver bolg"></a>
+				<a href="http://blog.daum.net/nhicblog" target="_blank"><img src="/m_nhis/images/main/icon_sns6.png" alt="daum blog"></a>
+			</div>
+		</section>
+		<!--// sns -->
+		<!-- complain -->
+			<div class="complain">
+				<ul class="tabmenu">
+					<li class="on">신고센터</li>
+					<li>경영방침위반</li>
+					<li>외부기관신고</li>
+				</ul>
+				<ol class="tabcontent">
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain1_1.png" alt="">부당청구요양기관 신고포상</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain1_2.png" alt="">1회용 주사기 재사용 신고</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain1_3.png" alt="">의료기관·약국 불법개설기관 신고</a></li>
+				</ol>
+				<ol class="tabcontent">
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain2_1.png" alt="">청탁금지위반 신고</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain2_2.png" alt="">국민건강보험공단 예산 낭비 신고</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain2_3.png" alt="">부패행위자처벌 현황 공개</a></li>
+				</ol>
+				<ol class="tabcontent">
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain3_1.png" alt="">레드휘슬 헬프라인</a></li>
+					<li><a href="#"><img src="/m_nhis/images/main/icon_complain3_2.png" alt="">국민권익위원회</a></li>
+				</ol>
+			</div>
+		<!--//complain -->
+		<!-- site -->
+		<ul class="site">
+			<li>
+				<label for="site1">공단내부 사이트</label>
+				<select id="site1">
+					<option value="https://www.nhis.or.kr//minwon.nhis.or.kr">사이버민원센터</option>
+					<option value="http://www.longtermcare.or.kr">노인장기요양 보험</option>
+					<option value="https://www.nhis.or.kr///si4n.nhis.or.kr">사회보험징수포털</option>
+					<option value="http://medi.nhis.or.kr/index.jsp">요양기관정보마당</option>
+					<option value="http://edi.nhis.or.kr">국민건강보험 EDI 서비스</option>
+					<option value="http://hi.nhis.or.kr">건강 IN</option>
+					<option value="https://sis.nhis.or.kr/nxui/index.do">건강검진기관포털</option>
+					<option value="https://www.nhis.or.kr/jsp/wbk/wbkmain.jsp">어린이사이트</option>
+					<option value="http://life.nhis.or.kr">국가건강검진 교육연수원</option>
+					<option value="http://nhiss.nhis.or.kr">국민건강보험자료 공유서비스</option>
+					<option value="http://hrd.nhis.or.kr">건강보험공단 인재개발원</option>
+					<option value="http://lib.nhis.or.kr">국민건강보험 전문도서관</option>
+				</select>
+			</li>
+			<li>
+				<label for="site2">보건복지부 사이트</label>
+				<select id="site2">
+					<option value="http://www.kcomwel.or.kr/kcomwel/main.jsp">근로복지공단</option>
+					<option value="https://www.ei.go.kr/ei/eih/cm/hm/main.do">고용보험 인터넷서비스</option>
+					<option value="http://total.kcomwel.or.kr/wx/kcw.w.wx.Main.do">고용·산재보험 토탈서비스</option>
+					<option value="http://www.4insure.or.kr">4대 사회보험 정보연계센터</option>
+				</select>
+			</li>
+			<li>
+				<label for="site3">지역본부 사이트</label>
+				<select id="site3">
+					<option value="https://www.nhis.or.kr/static/html/wbd/i/a/wbdia0101.html">서울강원지역 본부사이트</option>
+					<option value="https://www.nhis.or.kr/static/html/wbd/i/b/wbdib0101.html">부산경남지역 본부사이트</option>
+					<option value="https://www.nhis.or.kr/static/html/wbd/i/c/wbdic0101.html">대구경북지역 본부사이트</option>
+					<option value="https://www.nhis.or.kr/static/html/wbd/i/d/wbdid0101.html">호남제주지역 본부사이트</option>
+					<option value="https://www.nhis.or.kr/static/html/wbd/i/e/wbdie0101.html">대전충청지역 본부사이트</option>
+					<option value="https://www.nhis.or.kr/static/html/wbd/i/f/wbdif0101.html">인천경기지역 본부사이트</option>
+				</select>
+			</li>
+			<li>
+				<label for="site4">유관기관 사이트</label>
+				<select di="site4">
+					<option value="http://xn--2i4bo5fgwadewe.kr">서울요양원</option>
+					<option value="http://www.nhimc.or.kr">일산병원</option>
+					<option value="http://www.pisc.go.kr">행정정보동이용센터</option>
+					<option value="http://www.nps.or.kr">국민연금</option>
+					<option value="http://www.acrc.go.kr/acrc/index.do">국민권익위원회</option>
+					<option value="http://www.giro.or.kr">인터넷 지로 납부</option>
+					<option value="http://www.hira.or.kr">건강보험 심사 평가원</option>
+					<option value="http://www.egov.go.kr">민원24</option>
+					<option value="http://efamily.scourt.go.kr">전자가족관계등록 시스템</option>
+					<option value="http://www.khwis.or.kr">한국 보건복지 정보개발원</option>
+					<option value="http://www.korea.go.kr">대한민국 전자정부</option>
+					<option value="http://www.neca.re.kr">한국 보건의료 연구원</option>
+					<option value="http://www.k-medi.or.kr">한국 의료분쟁 조정중재원</option>
+					<option value="http://www.hikorea.go.kr">하이코리아</option>
+					<option value="http://www.obnhic.co.kr">국민건강보험 동우회</option>
+					<option value="http://www.4insure.or.kr">4대사회보험 정보연계센터</option>
+					<option value="https://www.safekorea.go.kr">행정안전부 국민재난안전포털</option>
+				</select>
+			</li>
+		</ul>
+		<!--// site -->
+	</div>
+	<footer id="footer">
+		<ul>
+			<li><a href="#">개인정보처리방침</a></li>
+			<li><a href="#">온라인도우미</a></li>
+		</ul>
+		<p>
+			<span>26464 강원도 원주시 건강로 32(번곡동)</span>
+			<span>대표번호: 1577-1000</span>
+			<span>COPYRIGHT ⓒ NHIS ALL RIGHT RESERVED</span>
+		</p>
+	</footer>
+</div>
+<script src="/m_nhis/script/main.js" charset="utf-8"></script>
+</body>
+</html>
